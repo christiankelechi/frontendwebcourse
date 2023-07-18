@@ -1,0 +1,14 @@
+li{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:brown;
+}
+li#last{
+color:black;
+}
+li#first{
+    color:green;
+}
+li{
+    display:inline;margin-top:1.2rem;
+}
