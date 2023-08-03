@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slider-container {
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px; /* Adjust the width as per your preference */
+    margin: 0 auto;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 1s ease;
+  }
+  

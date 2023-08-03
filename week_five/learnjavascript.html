@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="John Dean">
+<title>Hello</title>
+</head>
+<body>
+<p id="welcome">greetings</p>
+<input type="button" value="click me" onclick="displayHello()">
+
+<script>
+    var msg;
+    var increment = 1;
+
+    function displayHello() {
+        increment += 1;
+
+        if (increment % 2 === 0) {
+            msg = document.getElementById("welcome");
+            msg.innerHTML = "<h6>Welcome to Codeblaze Academy</h6>";
+        } else {
+            msg = document.getElementById("welcome");
+            msg.innerHTML = "<h6>What next</h6>";
+        }
+    }
+</script>
+</body>
+</html>

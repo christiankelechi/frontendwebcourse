@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Your Name">
+  <title>User Receipt</title>
+</head>
+<body>
+  <script>
+    // Function to accept user information and generate the receipt
+    function generateReceipt() {
+      const firstName = prompt("Enter your first name:");
+      const lastName = prompt("Enter your last name:");
+      const password = prompt("Enter your password:");
+
+      // Create a receipt object to store user information
+      const receipt = {
+        firstName: firstName,
+        lastName: lastName,
+        password: password
+      };
+
+      // Display the receipt
+      alert("Receipt:\n\n" + JSON.stringify(receipt, null, 2));
+    }
+
+    // Call the function when the page loads (you can also trigger this function with a button click)
+    generateReceipt();
+  </script>
+</body>
+</html>

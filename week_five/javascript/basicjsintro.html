@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master javascript introduction</title>
+    
+</head>
+<body>
+  <p id="greet">greetings</p> 
+  <!-- <input type="button" onclick="greetme()" value="greet me button"> -->
+  <button onmouseenter="changecolor()" onclick="greetme()">greet me button</button>
+  <script>
+function greetme(){
+    var greetmessage;
+    greetmessage=document.getElementById("greet");
+    greetmessage.innerHTML='<h2> Hello Welcome to Codeblaze Academy</h2>'
+    // greetmessage.outerHTML='<h2> Hello welcome to Codeblaze Academy</h2>'variable
+    
+}
+function changecolor(){
+    var changeColorElement;
+    changeColorElement=document.getElementById("greet")
+    changeColorElement.innerHTML="<h2 style='color:green;'>greetings</h2>"
+    
+}
+
+  </script>
+</body>
+</html>

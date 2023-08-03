@@ -40,11 +40,13 @@ button{
 section.body{
     width: 100%;
     display: flex;
+    padding: 10%;
     /* border:2px solid green; */
 }
 
 section.body aside.left{
-    width: 35%;
+    width: 25%;
+
     /* border:2px solid red; */
 
 }
@@ -62,10 +64,11 @@ section aside.right div{
     display: block;
     width:150px;
 }
-section aside.right{
+section.body aside.right{
     width:35%;
     margin-top: 0;
     display: block;
+    margin-right: 20%;
     
 }
 section aside.right small{
@@ -73,4 +76,13 @@ section aside.right small{
 }
 section aside.right small.details{
 font-size: 8px;
+}
+.imageandbody{
+    width:10rem;
+    background-color: #929aa5;
+}
+.imageandbody img{
+width: 10px;height: 10px;
+padding:2px;
+margin-top: 4px;
 }
